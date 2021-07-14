@@ -28,7 +28,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Login.php">Ingresa</a>
                     <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Registration.php">Registrate</a>
+                        <a class="dropdown-item" href="Registro.php">Registrate</a>
                     </div>
                 </li>                
                 <li class="nav-item active">
@@ -51,9 +51,11 @@
         </p>
     <div class="card-deck">
     <div class="card">
-        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top">
+        <a href="content/Kanojo_mo_Kanojo.php">
+        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top" >
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Kanojo mo Kanojo</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -61,9 +63,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Gokushufudou.jfif" class="card-img-top">
+        <a href="content/Kakegurui.php">
+        <img src="assets/img/kakegurui.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">kakegurui</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -71,9 +75,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Bokutachi no Remake.jpg" class="card-img-top" alt="...">
+        <a href="content/Black_Clover.php">
+        <img src="assets/img/Black clover.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Black Clover</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -81,9 +87,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top">
+        <a href="content/Evangelion.php">
+        <img src="assets/img/Evangelion.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Evangelion</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -91,9 +99,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Gokushufudou.jfif" class="card-img-top">
+        <a href="content/Shuumatsu_no_Valkyrie.php">
+        <img src="assets/img/Shuumatsu no Valkyrie.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Shuumatsu no Valkyrie</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -101,19 +111,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Bokutachi no Remake.jpg" class="card-img-top" alt="...">
+        <a href="content/Death_Note.php">
+        <img src="assets/img/Death Note.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text"></p>
-        </div>
-        <div class="card-footer">
-        <small class="text-muted"></small>
-        </div>
-    </div>
-    <div class="card">
-        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Death Note</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -121,12 +123,13 @@
         </div>
     </div>
     
-    </div>
     <div class="card-deck">
     <div class="card">
-        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top">
+        <a href="content/Your_lie_in_april.php">
+        <img src="assets/img/Your lie in april.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Your lie in april</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -134,9 +137,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Gokushufudou.jfif" class="card-img-top">
+        <a href="content/Berserk.php">
+        <img src="assets/img/Berserk.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Berserk</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -144,9 +149,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Bokutachi no Remake.jpg" class="card-img-top" alt="...">
+        <a href="content/Banana_Fish.php">
+        <img src="assets/img/Banana Fish.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Banana Fish</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -154,9 +161,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top">
+        <a href="content//Tokyo_Ghoul.php">
+        <img src="assets/img/Tokyo Ghoul.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Tokyo Ghoul</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -164,9 +173,11 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Gokushufudou.jfif" class="card-img-top">
+        <a href="content/Tate_no_yuusha.php">
+        <img src="assets/img/Tate no yuusha.jfif" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Tate no yuusha</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -174,29 +185,17 @@
         </div>
     </div>
     <div class="card">
-        <img src="assets/img/Bokutachi no Remake.jpg" class="card-img-top" alt="...">
+        <a href="content/Demon_Slayer.php">
+        <img src="assets/img/Demon Slayer.jpeg" class="card-img-top">
+        </a>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Kimetsu no Yaiba</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
         <small class="text-muted"></small>
         </div>
-    </div>
-    <div class="card">
-        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text"></p>
-        </div>
-        <div class="card-footer">
-        <small class="text-muted"></small>
-        </div>
-    </div>
-    
-    </div>
-    
-    
+    </div>    
 
 
 
