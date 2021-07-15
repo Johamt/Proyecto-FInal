@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyecto</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand">
             <img src="assets/img/logo.png" width="200" height="50">
         </a>
@@ -26,9 +26,11 @@
                         オプション-Options
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Login.php">Ingresa</a>
+                        <a class="dropdown-item" href="Directory.php">Ver animes</a>
                     <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Registro.php">Registrate</a>
+                        <a class="dropdown-item" href="Admin/Listado_usuarios.php">Administrar usuarios</a>
+                    <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Logout.php">Salir</a>
                     </div>
                 </li>                
                 <li class="nav-item active">
@@ -45,28 +47,10 @@
             </ul>                  
         </div>
     </nav>
-    <div class="container">
-        <form method="POST" action="Processes/form_registro_user.php">
-            <div class="form-group">
-                <label for="nombre_user">Nombres</label>
-                <input type="text" class="form-control" id="nombre_user" name="nombre_user">
-            </div>
-            <div class="form-group">
-                <label for="email_user">Email</label>
-                <input type="email" class="form-control" name="email_user" id="email_user">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="pass_user">Password</label>
-                    <input type="password" class="form-control" name="pass_user" id="pass_user">
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Registrarse</button>
-        </form>
-        
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-</body>
+   
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </body>
 </html>

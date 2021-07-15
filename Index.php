@@ -26,9 +26,9 @@
                         オプション-Options
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Login.php">Ingresa</a>
+                        <a class="dropdown-item" href="Log/Login.php">Ingresa</a>
                     <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Registro.php">Registrate</a>
+                        <a class="dropdown-item" href="Log/Registro.php">Registrate</a>
                     </div>
                 </li>                
                 <li class="nav-item active">

@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,68 +45,28 @@
             </ul>                  
         </div>
     </nav>
+    <div class="container">
+        <form method="POST" action="Processes/form_registro_user.php">
+            <div class="form-group">
+                <label for="nombre_user">Nombres</label>
+                <input type="text" class="form-control" id="nombre_user" name="nombre_user">
+            </div>
+            <div class="form-group">
+                <label for="email_user">Email</label>
+                <input type="email" class="form-control" name="email_user" id="email_user">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="pass_user">Password</label>
+                    <input type="password" class="form-control" name="pass_user" id="pass_user">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
         
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
-    
-       
-                    
-    
-    
- <div class="imagen">           
-<img src="../assets/img/Shuumatsu/Record.jpeg" width="275" height="390"> 
-<div class="hola"><b><h3>Sinopsis</h3></b></div>
-
-<div class="resumen"><article>Shūmatsu no Valkyrie (終末のワルキューレ, Shūmatsu no Warukyūre ?) o Record of Ragnarok es una próxima serie de animación japonesa basada en el manga Shuumatsu no Valkyrie de Fukui Takumi, Umemurau Shinya y Aji Chika. Dirigido por Masao Okubo, el anime se estrenará el 17 junio de 2021 en Netflix. En el congreso de Valhalla celebrado cada 1000 años, los dioses votaron por unanimidad por la extinción de la raza humana, los únicos que se oponen son las valquirias, cuyo líder, Brynhildr, les recuerda a los dioses que en tales casos se les otorga a los seres humanos una última oportunidad, representada por el torneo ragnarök donde 13 dioses lucharán contra 13 campeones humanos en batallas uno contra uno para decidir si la humanidad vive o muere.</article></div>
-<br>
-<div class="lista"><h3>Personajes</h3></div>
-<br>
-<br>
-<div class="personajes">
-    <img src="../assets/img/Shuumatsu/Brunhilde.jpeg" width="140" height="70">
-    <br>
-    <br>
-    <a href="a">Brunhilde</a>
-    
-    
-<br>
-<br>
-<img src="../assets/img/Shuumatsu/Thor.jpeg" width="120" height="120">
-<br>
-<br>
-<a href="a">Thor</a>
-<br>
-<br>
-<img src="../assets/img/Shuumatsu/Lubu.jpeg" width="120" height="120">
-<br>
-<br>
-<a href="a">Lu Bu</a>
-<br>
-<br>
-<img src="../assets/img/Shuumatsu/Adam.jpeg" width="120" >
-<br>
-<br>
-<a href="a">Adan</a>
-<br>
-<br>
-<img src="../assets/img/Shuumatsu/Zeus.jpeg" width="120">
-<br>
-<br>
-<a href="a">Zeus</a> 
-<br>
-<br>
-<img src="../assets/img/Shuumatsu/Poseidon.jpeg" width="120">
-<br>
-<br>
-<a href="a">Poseidon</a>
-<br>
-<br>
-<img src="../assets/img/Shuumatsu/Sakaki.jpeg" width="120">
-<br>
-<br>
-<a href="a">Kojiro Sasaki</a>
-</div> 
 </body>
 </html>

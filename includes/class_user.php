@@ -30,6 +30,7 @@ class Usuario extends Conexion{
         return " Registro exitoso";
     }
     
+    
     function listar_usuario_x_id($id_usuario_bonito){
         $gato_consulta = "SELECT * FROM tb_usuario WHERE id = ?";
         $consulta = $this->conexion->prepare($gato_consulta);
@@ -61,7 +62,7 @@ class Usuario extends Conexion{
         return "
         <script>
         Swal.fire(
-            'El dato fue eliminado',
+            'Fuiste registrado',
             'success'
         )
         </script>

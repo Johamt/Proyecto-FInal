@@ -20,16 +20,6 @@
             <ul class="navbar-nav nav-tabs mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="http://localhost/ProyectoFinal/Index.php">ホーム-Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        オプション-Options
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Login.php">Ingresa</a>
-                    <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Registro.php">Registrate</a>
-                    </div>
                 </li>                
                 <li class="nav-item active">
                     <a class="nav-link" href="http://localhost/ProyectoFinal/Directory.php">ディレクトリ-Directory <span class="sr-only">(current)</span></a>
@@ -45,25 +35,24 @@
             </ul>                  
         </div>
     </nav>
-    <div>
-        <h1>Anime</h1>
-    
-        <section>
-            <!-- Representa un bloque de codigo que se puede repetir -->
-            <article>
-                <h2>Death Note</h2>
-                <img src="../assets/img/Death Note.jpeg" alt="Death Note" width="200" height="250">
-                <div>
-                    <p>la Death Note es una libreta con una portada negra y su nombre inscrito en ella. 
-                    Esta libreta tiene la capacidad de matar a cualquier persona si se escribe su nombre en ella mientras el portador visualice el rostro de aquella persona.</p>
+    <div class="container">
+        <form method="POST" action="../Processes/form_registro_anime.php">
+            <div class="form-group">
+                <label for="nombre_anime">Nombre</label>
+                <input type="text" class="form-control" id="nombre_anime" name="nombre_anime">
+            </div>
+            <div class="form-group">
+                <label for="trama_anime">Trama</label>
+                <input type="text" class="form-control" name="trama_anime" id="trama_anime">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="caps_user">Capitulos</label>
+                    <input type="number" class="form-control" name="caps_user" id="caps_user">
                 </div>
-            </article>
-            <h1><a href="">Light Yagami(Kira)</a></h1>
-            <h1><a href="">L</a></h1>
-            <h1><a href="">Ryuk</a></h1>
-            <h1><a href="">Near</a></h1>
-            <h1><a href="">Misa Amane</a></h1>
-        </section>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+        </form>
         
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

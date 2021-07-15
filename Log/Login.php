@@ -12,7 +12,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand">
-            <img src="assets/img/logo.png" width="200" height="50">
+            <img src="../assets/img/logo.png" width="200" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,14 +51,14 @@
         <div class="row d-flex justify-content-center align-items-center" style="margin: 10% 20%">
             <div class="col-12 p-3 mb-5 bg-white rounded">
                 <h1 class="text-center">INGRESO</h1>
-                <form action="login.php" method="POST" class="m-4">
+                <form action="Login.php" method="POST" class="m-4">
                     <div class="form-group">
-                        <label for="correo_user">Correo</label>
+                        <label for="email_user">email</label>
                         <input type="email" class="form-control" name="email_user" id="email_user">
                     </div>
                     <div class="form-group">
-                        <label for="contraseña_user">Contraseña</label>
-                        <input type="password" class="form-control" name="contraseña_user" id="contraseña_user">
+                        <label for="pass_user">pass</label>
+                        <input type="password" class="form-control" name="pass_user" id="pass_user">
                     </div>
                     <span>
                         <?php
@@ -81,15 +81,15 @@
     <?php
     if($_POST){
         session_start();
-        require_once "includes/class_conexion.php";
+        require_once "../includes/class_conexion.php";
         $conex = new Conexion();
         $conex_login = $conex->conexion_bd_notas();
         $conex_login->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $usuario_form = $_POST['correo_user'];
+        $usuario_form = $_POST['email_user'];
         $pass_user = $_POST['pass_user'];
 
 
-        $sql = "SELECT * FROM tb_usuario WHERE correo = :usuario AND pass = :pass";
+        $sql = "SELECT * FROM tb_usuarios WHERE email = :usuario AND pass = :pass";
         $query = $conex_login->prepare($sql);
         $query->bindParam(':usuario', $usuario_form);
         $query->bindParam(':pass', $pass_user );
@@ -99,11 +99,11 @@
 
         if( $usurio_data){
             $_SESSION['id'] = $usurio_data['id_usuario'];
-            $_SESSION['id_rol'] =  $usurio_data['id_rol'];
-            header("location: admin.php");
+            $_SESSION['id'] =  $usurio_data['id_rol'];
+            header("location: ../Admin.php");
         }else{
-            $error_login = "Usuario y/o contraseña invalida";
-            header("location: login.php?e=".$error_login );
+            $error_login = "Usuario y/o pass invalida";
+            header("location: ../Index.php?e=".$error_login );
         }
 
     }

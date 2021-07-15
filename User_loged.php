@@ -26,15 +26,11 @@
                         オプション-Options
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action1</a>
-                    <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Action2</a>
-                    <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Action3</a>
+                        <a class="dropdown-item" href="Log/Logout.php">Salir</a>
                     </div>
                 </li>                
                 <li class="nav-item active">
-                    <a class="nav-link" href="http://localhost/ProyectoFinal/Directory.php">ディレクトリ-directory <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="http://localhost/ProyectoFinal/Directory.php">ディレクトリ-Directory <span class="sr-only">(current)</span></a>
                 </li>
             </ul>  
             <ul class="navbar-nav nav-tabs mr-auto">
@@ -51,18 +47,13 @@
         <p>
         <h1> Animes</h1>
         </p>
-    
-      
-        <p>
-        <h1> Animes</h1>
-        </p>
     <div class="card-deck">
     <div class="card">
-        <a href="content/Your_Name.php">
-        <img src="assets/img/Your_Name/Your_Name.jpeg" class="card-img-top" >
+        <a href="content/Kanojo_mo_Kanojo.php">
+        <img src="assets/img/Kanojo mo Kanojo.jfif" class="card-img-top" >
         </a>
         <div class="card-body">
-        <h5 class="card-title">Your Name</h5>
+        <h5 class="card-title">Kanojo mo Kanojo</h5>
         <p class="card-text"></p>
         </div>
         <div class="card-footer">
@@ -202,12 +193,13 @@
         <div class="card-footer">
         <small class="text-muted"></small>
         </div>
-    </div>  
-        
-        
+    </div>    
+
+
+
+
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    
-    
     </body>
 </html>

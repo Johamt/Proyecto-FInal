@@ -45,6 +45,23 @@
             </ul>                  
         </div>
     </nav>
+    <section>
+            <!-- Representa un bloque de codigo que se puede repetir -->
+            <article>
+                <h2>Tokyo Ghoul</h2>
+                <img src="../assets/img/Tokyo Ghoul.jpeg" alt="Tokyo Ghoul" width="200" height="250">
+                <div>
+                    <p>Kaneki Ken, un joven corriente que sobrevive fortuitamente al ataque de una ghoul. 
+                    Sin embargo, para salir adelante le trasplantaron los órganos de la ghoul de la que fue víctima. 
+                    Por ello, su vida cambia radicalmente al convertirse en un híbrido entre humano y ghoul.</p>
+                </div>
+            </article>
+            <h1><a href="">Kaneki Ken</a></h1>
+            <h1><a href="">Touka Kirishima</a></h1>
+            <h1><a href="">Rize Kamishiro</a></h1>
+            <h1><a href="">Yakumo Oomori(Jason)</a></h1>
+            <h1><a href="">Ayato Kirishima</a></h1>
+        </section>
         
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

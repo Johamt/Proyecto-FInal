@@ -47,6 +47,31 @@
     </nav>
         
     </div>
+    <div>
+        <h1>Anime</h1>
+    
+        <div>
+        <h1>Anime</h1>
+    
+        <section>
+            <!-- Representa un bloque de codigo que se puede repetir -->
+            <article>
+                <h2>Neon Genesis Evangelion</h2>
+                <img src="../assets/img/Evangelion.jpeg" alt="Evangelion" width="200" height="250">
+                <div>
+                    <p>Cuando unos monstruos violentos descienden a 
+                    la Tierra para destruir a la humanidad,</p>
+                    <p>Shinji, un joven de 14 años, se une a un pequeño escuadrón de pilotos bajo el mando de su padre,</p> 
+                    <p>máquinas gigantes que parecen tener sus propias mentes.</p>
+                </div>
+            </article>
+            <h1><a href="">Shinji Ikari</a></h1>
+            <h1><a href="">Asuka Langley Sōryū</a></h1>
+            <h1><a href="">Rei Ayanami</a></h1>
+            <h1><a href="">Misato Katsuragi</a></h1>
+            <h1><a href="">Gendō Ikari</a></h1>
+        </section>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="../assets/js/bootstrap.min.js"></script>

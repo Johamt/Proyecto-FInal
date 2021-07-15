@@ -45,6 +45,26 @@
             </ul>                  
         </div>
     </nav>
+
+    <section>
+            <article>
+                <h2>Berserk</h2>
+                <img src="../assets/img/Berserk.jpeg" alt="Berserk" width="200" height="250">
+                <div>
+                    <p>Un joven y bravo guerrero llamado Guts lucha como un mercenario en primera línea.
+                        Por azares del destino, Guts se acaba uniendo al carismático y mortal joven llamado Griffith. 
+                        Liderando al grupo de mercenarios conocidos como la Banda del Halcón, Griffith empuña su formidable fuerza como ningún otro lo ha hecho. 
+                        Conducidos por cuestiones de estatus, los miembros de la Banda del Halcón pronto irán escalando en el camino de la gloria tras su alianza con el reino de Midland, 
+                        hasta que un desafortunado suceso provocará un revés en la Banda que pondrá al mundo de rodillas.</p>
+                </div>
+            </article>
+            <h1><a href="">Guts</a></h1>
+            <h1><a href="">Griffith(Femto)</a></h1>
+            <h1><a href="">Casca</a></h1>
+            <h1><a href="">Zood</a></h1>
+            <h1><a href="">Behelit el huevo del rey</a></h1>
+        </section>
+
         
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

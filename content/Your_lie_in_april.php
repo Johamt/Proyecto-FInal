@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,7 +46,32 @@
             </ul>                  
         </div>
     </nav>
-        
+<div>
+    <section> 
+            <div class="row"> 
+                <div class="col-sm-4"> 
+                    <article class="logo border"> 
+                        <h2> 🎹 Your Lie In April 🎻 </h2> 
+                        <img src="../assets/img/Your lie/Your lie.jpeg" width="400" height="auto" class="A"> 
+                        
+                    </article> 
+                </div>
+
+                <div class="col-sm-4">
+                    <article>  
+                        <h2> Descripcion </h2> 
+                        <div class="A"> 
+                        <p>A los 11 años, Kôsei es un virtuoso del piano. Pero cuando su madre muere tras una larga enfermedad, Kôsei pierde por completo la habilidad de tocar. Años mas tarde, conocerá a Kaori, una violinista cuya manera de entender e interpretar la música es totalmente opuesta a la suya.</p>  
+                        <br><br><br><br>
+                        <h2> Temporadas </h2>
+                        <p>Basada en el manga homonimo; consiste en una Temporada con 22 episodios en total y con su espera de la segunda temporada, acompañada por pelicula la cual su duracion es de 2 horas y 22 minutos.</p> 
+                        </div> 
+                    </article> 
+                </div> 
+            </div> 
+        </section>  
+    </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
